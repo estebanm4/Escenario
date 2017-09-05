@@ -37,13 +37,12 @@ public class Board extends JPanel implements ActionListener{
         g.fillOval(this.xRef+30,yRef+40,10,10);
         
         g.setColor(Color.blue);
-        g.fillRect(this.xRef+10,yRef+20, 25, 10);
+        g.fillRect(this.xRef+15,yRef+20, 25, 10);
         
     }
- 
     @Override
     public void actionPerformed(ActionEvent e) {
-        this.xRef=+1;
+        this.xRef = +1;
         repaint();
     
     }
