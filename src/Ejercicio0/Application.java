@@ -15,7 +15,7 @@ public class Application extends JFrame {
     private void initUI() {
 
         add(new Board());
-        setSize(250, 200);
+        setSize(1024, 512);
         setTitle("Ejercicio 0");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
