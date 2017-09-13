@@ -67,7 +67,7 @@ public class Board extends JPanel implements ActionListener {
         
         g.setColor(Color.GRAY);
         g.drawRect(xRefCa, yRefCa+20, 50, 30);
-        Rectangle carro = new Rectangle(this.xRefCa+0, yRefCa+45, 200, 90);
+        Rectangle carro = new Rectangle(xRefCa+0, yRefCa+45, 100, 45);
         
         g.setColor(Color.orange);
         g.fillOval(xRefOv+500, yRefOv+2, 50, 50);
